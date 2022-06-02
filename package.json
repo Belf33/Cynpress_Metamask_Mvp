@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^10.0.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "env-cmd -f .env npx synpress run -cf synpress.json"
+  },
+  "dependencies": {
+    "@synthetixio/synpress": "^1.2.0",
+    "env-cmd": "^10.1.0"
+  }
+}
