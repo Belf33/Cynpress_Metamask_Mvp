@@ -15,6 +15,10 @@ npm i @synthetixio/synpress
 npm install env-cmd
 ```
 
+## Run Tests
+
+```npm run test```
+
 ## Useful Links
 
 - https://docs.cypress.io/guides/getting-started/installing-cypress
