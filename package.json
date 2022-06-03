@@ -3,7 +3,6 @@
     "cypress": "^10.0.1"
   },
   "scripts": {
-    "cypress:open": "cypress open",
     "test": "env-cmd -f .env npx synpress run -cf synpress.json"
   },
   "dependencies": {
