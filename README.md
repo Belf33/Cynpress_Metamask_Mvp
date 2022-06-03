@@ -1,5 +1,5 @@
 # synpress_metamask_login
-This repo belongs to the tutorial
+This repo belongs to the written tutorial ____ .
 
 Synpress is a wrapper of Cypress (e2e-frontend-testing) and allows to test web3 dApps with metamask interaction. This code base accompanies the written tutorial. It helps to onboard people to dApp e2e testing.
 
