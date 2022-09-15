@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "cypress": "^10.0.1"
+    "cypress": "^10.8.0"
   },
   "scripts": {
     "test": "env-cmd -f .env npx synpress run -cf synpress.json"
