@@ -1,3 +1,5 @@
+import synpress from "node_modules/@synthetixio/";
+
 describe('Test User Login', () => {
 
 	// it('Add Mumbai network', () => {
@@ -22,6 +24,8 @@ describe('Test User Login', () => {
 	// 		isTestnet: false
 	// 	});
 	// });
+
+	synpress.baseUrl = "https://wallet-new.polygon.technology/";
 
 	it('Connects with Metamask', () => {
 		cy.visit('https://wallet-new.polygon.technology');

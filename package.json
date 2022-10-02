@@ -4,7 +4,6 @@
     "eslint": "^8.24.0"
   },
   "scripts": {
-    "test" : "npx synpress run"
   },
   "dependencies": {
     "@synthetixio/synpress": "^2.3.3",

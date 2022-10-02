@@ -1,2 +1,1 @@
-import '@synthetixio/synpress/support/index';
-
+import "@synthetixio/synpress/support/index";
