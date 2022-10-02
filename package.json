@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "cypress": "^10.8.0",
-    "eslint": "^8.24.0"
+    "cypress": "^10.8.0"
   },
   "scripts": {
+    "test": "synpress run --configFile=synpress.config.js"
   },
   "dependencies": {
     "@synthetixio/synpress": "^2.3.3",
