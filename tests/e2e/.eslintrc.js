@@ -4,6 +4,9 @@ const synpressPath = path.join(
     '/node_modules/@synthetixio/synpress',
 );
 
+console.log(process.cwd());
+console.log(synpressPath);
+
 module.exports = {
   extends: `${synpressPath}/.eslintrc.js`,
 };

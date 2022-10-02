@@ -1,12 +1,13 @@
 {
   "devDependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "eslint": "^8.24.0"
   },
   "scripts": {
-    "test": "env-cmd -f .env npx synpress run -cf synpress.json"
+    "test" : "npx synpress run"
   },
   "dependencies": {
-    "@synthetixio/synpress": "^1.2.0",
+    "@synthetixio/synpress": "^2.3.3",
     "env-cmd": "^10.1.0"
   }
 }
