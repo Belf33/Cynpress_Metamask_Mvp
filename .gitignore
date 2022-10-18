@@ -4,3 +4,4 @@ screenshots
 .env
 package-lock.json
 .idea
+tests/e2e/test_artifacts
