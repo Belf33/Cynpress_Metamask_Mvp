@@ -9,7 +9,7 @@ class loginSteps {
 		loginWithWalletPage.clickConnectWithMetamask();
 	}
 
-	closeNewWalletNotificationPopup() {
+	closeNewWalletNotificationPopupIfPresent() {
 		cy.wait(2000)
 		cy.get('.app_router-view').then($element => {
 			if ($element.find('.onboarding-modal__body__label').length > 0) {
